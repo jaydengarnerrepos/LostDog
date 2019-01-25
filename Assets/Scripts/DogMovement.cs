@@ -21,14 +21,14 @@ class DogMovement : MonoBehaviour
     void Update()
     {
         Vector2 playerAxisInput = Playerinput.GetAxis2D("Horizontal", "Vertical") * movmentScaling;
-         playerRotainAngle = Vector3.SignedAngle(Vector3.up, playerAxisInput,Vector3.back);
+         playerRotainAngle = Vector3.SignedAngle(Vector3.up, playerAxisInput,Vector3.forward);
          if (playerAxisInput.magnitude >  0)
          {
-             transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(0,playerRotainAngle,0),1/turnSmoothing);
+             transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(0,0, playerRotainAngle),1/turnSmoothing);
          }
          //TODO add CameraYangle changes;
 
-        Vector3 newpos = transform.position + new Vector3(playerAxisInput.x,0,  playerAxisInput.y);
+        Vector3 newpos = transform.position + new Vector3(playerAxisInput.x, playerAxisInput.y,  0);
         transform.position = newpos;
     }
 }
