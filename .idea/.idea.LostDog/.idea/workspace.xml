@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Palette.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Palette.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +20,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
-                <marker date="1548416357289" expanded="false" signature="6:32" ph="..." />
-                <marker date="1548416357289" expanded="true" signature="170:269" ph="{...}" />
-                <marker date="1548416357289" expanded="true" signature="229:267" ph="{...}" />
-                <marker date="1548416357289" expanded="true" signature="308:420" ph="{...}" />
-                <marker date="1548416357289" expanded="true" signature="376:418" ph="{...}" />
+                <marker date="1548450957004" expanded="true" signature="6:52" ph="..." />
+                <marker date="1548450957004" expanded="true" signature="90:187" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,10 +37,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>leaving</find>
+      <find>enter</find>
     </findStrings>
     <replaceStrings>
       <replace>returning</replace>
       <replace>returned</replace>
+      <replace>update</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -52,14 +52,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RewiredConsts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LeavingState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -148,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548412780420</updated>
-      <workItem from="1548412783237" duration="4724000" />
+      <workItem from="1548412783237" duration="7373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4724000" />
+    <option name="totallyTimeSpent" value="7373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,7 +223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1548414285247" expanded="true" signature="53:57" ph="{...}" />
+            <marker date="1548450525046" expanded="true" signature="1101:1103" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -257,13 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameStateChangeEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -280,14 +274,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="504">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <marker date="1548416357289" expanded="false" signature="6:32" ph="..." />
-            <marker date="1548416357289" expanded="true" signature="170:269" ph="{...}" />
-            <marker date="1548416357289" expanded="true" signature="229:267" ph="{...}" />
-            <marker date="1548416357289" expanded="true" signature="308:420" ph="{...}" />
-            <marker date="1548416357289" expanded="true" signature="376:418" ph="{...}" />
+            <marker date="1548419030296" expanded="false" signature="6:32" ph="..." />
+            <marker date="1548419030296" expanded="true" signature="170:269" ph="{...}" />
+            <marker date="1548419030296" expanded="true" signature="229:267" ph="{...}" />
+            <marker date="1548419030296" expanded="true" signature="308:420" ph="{...}" />
+            <marker date="1548419030296" expanded="true" signature="376:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IState.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1548450957004" expanded="true" signature="6:52" ph="..." />
+            <marker date="1548450957004" expanded="true" signature="90:187" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -8,6 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e2e3ad8d5124ace929308b97612d598, type: 3}
-  m_Name: GameStateChangeEvent
+  m_Script: {fileID: 11500000, guid: 1a9535aea8f940d1a1d926baa9249e74, type: 3}
+  m_Name: LeavingHome
   m_EditorClassIdentifier: 
