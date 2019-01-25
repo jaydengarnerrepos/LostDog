@@ -14289,10 +14289,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 433278349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e931e925cfea142b0b471467634602, type: 3}
+  m_Script: {fileID: 11500000, guid: 73d62d743cff4623bf3a406575ced996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  gameCamera: {fileID: 433278351}
+  leavingHomeState: {fileID: 11400000, guid: 75726486b553d7c4ba4584310034b991, type: 2}
+  returningHomeState: {fileID: 11400000, guid: 91a7da7032a902b4784fa8ee00dbcc8e, type: 2}
+  car: {fileID: 1734135537}
+  dog: {fileID: 0}
 --- !u!1001 &565410195
 Prefab:
   m_ObjectHideFlags: 0

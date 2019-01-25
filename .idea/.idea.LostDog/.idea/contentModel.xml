@@ -43,7 +43,6 @@
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
         </e>
-        <e p="PlayerFollow.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Sirenix" t="Include">
             <e p="Assemblies" t="Include">
@@ -255,6 +254,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
           <e p="DogMovement.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GameEvent.cs" t="Include" />
