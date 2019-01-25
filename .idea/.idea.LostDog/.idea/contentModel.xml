@@ -256,6 +256,7 @@
         <e p="Scripts" t="Include">
           <e p="DogMovement.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="GameEvent.cs" t="Include" />
           <e p="RewiredConsts.cs" t="Include" />
         </e>
       </e>
