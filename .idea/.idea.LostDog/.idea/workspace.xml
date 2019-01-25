@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Car Driving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Car Driving.anim" afterDir="false" />
-    </list>
+    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,48 +23,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="312">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <marker date="1548455702110" expanded="true" signature="54:918" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="239:280" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="309:425" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="455:571" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="602:764" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="798:839" ph="{...}" />
-                <marker date="1548455702110" expanded="true" signature="875:916" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <marker date="1548455712361" expanded="true" signature="75:218" ph="{...}" />
-                <marker date="1548455712361" expanded="true" signature="168:216" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="54:961" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="239:280" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="309:425" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="455:571" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="602:807" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="841:882" ph="{...}" />
+                <marker date="1548456326849" expanded="true" signature="918:959" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <marker date="1548419030296" expanded="false" signature="6:32" ph="..." />
-                <marker date="1548419030296" expanded="true" signature="170:269" ph="{...}" />
-                <marker date="1548419030296" expanded="true" signature="229:267" ph="{...}" />
-                <marker date="1548419030296" expanded="true" signature="308:420" ph="{...}" />
-                <marker date="1548419030296" expanded="true" signature="376:418" ph="{...}" />
+                <marker date="1548456265009" expanded="true" signature="67:210" ph="{...}" />
+                <marker date="1548456265009" expanded="true" signature="160:208" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,8 +85,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LeavingState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -197,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548412780420</updated>
-      <workItem from="1548412783237" duration="9909000" />
+      <workItem from="1548412783237" duration="10692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9909000" />
+    <option name="totallyTimeSpent" value="10692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,22 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <marker date="1548455702110" expanded="true" signature="54:918" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="239:280" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="309:425" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="455:571" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="602:764" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="798:839" ph="{...}" />
-            <marker date="1548455702110" expanded="true" signature="875:916" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -366,11 +328,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <marker date="1548455712361" expanded="true" signature="75:218" ph="{...}" />
-            <marker date="1548455712361" expanded="true" signature="168:216" ph="{...}" />
+            <marker date="1548456265009" expanded="true" signature="67:210" ph="{...}" />
+            <marker date="1548456265009" expanded="true" signature="160:208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1548456326849" expanded="true" signature="54:961" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="239:280" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="309:425" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="455:571" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="602:807" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="841:882" ph="{...}" />
+            <marker date="1548456326849" expanded="true" signature="918:959" ph="{...}" />
           </folding>
         </state>
       </provider>

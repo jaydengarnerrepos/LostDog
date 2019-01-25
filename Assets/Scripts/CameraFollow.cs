@@ -6,6 +6,7 @@ class CameraFollow : MonoBehaviour
     public GameEvent leavingHomeState, returningHomeState;
     public Transform car, dog;
     private Transform currentTarget;
+    public Vector2 cameraOffset;
 
     private void Awake()
     {
@@ -27,7 +28,8 @@ class CameraFollow : MonoBehaviour
     private void LateUpdate()
     {
         if (currentTarget == null) return;
-        gameCamera.transform.position = new Vector3(currentTarget.position.x, currentTarget.position.y,
+        gameCamera.transform.position = new Vector3(currentTarget.position.x + cameraOffset.x,
+            currentTarget.position.y + cameraOffset.y,
             gameCamera.transform.position.z);
     }
 
