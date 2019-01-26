@@ -257,6 +257,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CarFollowAnimationPathEnd.cs" t="Include" />
           <e p="DogMovement.cs" t="Include" />
+          <e p="followDog.cs" t="Include" />
           <e p="FoundWayHomeTrigger.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GameEvent.cs" t="Include" />

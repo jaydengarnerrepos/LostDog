@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Car.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Car.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/City.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leaving_home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leaving_home.unity" afterDir="false" />
-    </list>
+    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
