@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 class CameraFollow : MonoBehaviour
@@ -7,6 +8,7 @@ class CameraFollow : MonoBehaviour
     public Transform car, dog;
     private Transform currentTarget;
     public Vector2 cameraOffset;
+    public float zoomSpeed = 5f;
 
     private void Awake()
     {
@@ -41,5 +43,15 @@ class CameraFollow : MonoBehaviour
     private void OnReturningHome()
     {
         currentTarget = dog;
+        StartCoroutine(ZoomingInOnDog());
+    }
+
+    private IEnumerator ZoomingInOnDog()
+    {
+        while (gameCamera.fieldOfView > 60)
+        {
+            gameCamera.fieldOfView -= zoomSpeed * Time.deltaTime;
+            yield return null;
+        }
     }
 }

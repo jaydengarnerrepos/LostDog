@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog Path 1 Spawn Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dog Path 1 Spawn Point.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,25 +26,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="1018">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding>
-                <marker date="1548482334441" expanded="true" signature="54:1040" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="272:313" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="342:458" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="488:604" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="635:886" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="920:961" ph="{...}" />
-                <marker date="1548482334441" expanded="true" signature="997:1038" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="6:44" ph="..." />
+                <marker date="1548482866068" expanded="true" signature="80:1171" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="298:339" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="368:484" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="514:630" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="661:912" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="946:987" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="1023:1106" ph="{...}" />
+                <marker date="1548482866068" expanded="true" signature="1148:1169" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -215,12 +213,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548412780420</updated>
       <workItem from="1548412783237" duration="16571000" />
-      <workItem from="1548481470517" duration="724000" />
+      <workItem from="1548481470517" duration="1255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17295000" />
+    <option name="totallyTimeSpent" value="17826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,22 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <marker date="1548482334441" expanded="true" signature="54:1040" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="272:313" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="342:458" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="488:604" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="635:886" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="920:961" ph="{...}" />
-            <marker date="1548482334441" expanded="true" signature="997:1038" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -406,6 +388,24 @@
           <folding>
             <marker date="1548482334501" expanded="true" signature="64:285" ph="{...}" />
             <marker date="1548482334501" expanded="true" signature="191:283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1018">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <marker date="1548482866068" expanded="true" signature="6:44" ph="..." />
+            <marker date="1548482866068" expanded="true" signature="80:1171" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="298:339" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="368:484" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="514:630" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="661:912" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="946:987" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="1023:1106" ph="{...}" />
+            <marker date="1548482866068" expanded="true" signature="1148:1169" ph="{...}" />
           </folding>
         </state>
       </provider>
