@@ -256,7 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetDog: {fileID: 0}
   PatrolTarget: {fileID: 4085783163836334}
-  followSpeed: 2
+  followSpeed: 2.5
   PartolSpeed: 0.1
   isFollowing: 0
   followDistance: 2.5
