@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 
 class CarFollowAnimationPathEnd : MonoBehaviour
@@ -7,5 +8,6 @@ class CarFollowAnimationPathEnd : MonoBehaviour
     public void EndCarFollow()
     {
         returningGameEvent.Raise();
+        Debug.Log("RETURNING HOME.");
     }
 }

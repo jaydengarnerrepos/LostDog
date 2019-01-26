@@ -4,5 +4,10 @@ using UnityEngine;
 class GameController : MonoBehaviour
 {
     public GameEvent leavingHomeState;
-    private void Start() => leavingHomeState.Raise();
+
+    private void Start()
+    {
+        leavingHomeState.Raise();
+        Debug.Log("LEAVING HOME.");
+    }
 }
