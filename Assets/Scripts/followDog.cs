@@ -19,12 +19,14 @@ public class followDog : MonoBehaviour
     private bool patrolBack;
     public float followDistance = 1;
     public float turnSmoothing = 3;
+    public AudioSource pantingSource;
 
     private Vector3 targetVector3;
 
     private Random rand;
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start()
     {
         isFollowing = false;
         startingPostion = transform.position;
@@ -52,23 +54,27 @@ public class followDog : MonoBehaviour
         {
             Patrol();
         }
+
         RotateDog();
         //Handles.DrawLine(pos, targetVector3);
-
     }
 
     private void RotateDog()
     {
         //TODO fix This up
-       float RotainAngle = Vector3.SignedAngle(Vector3.up, targetVector3, Vector3.forward);
-            //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, RotainAngle), 1 / turnSmoothing);
-            transform.rotation = Quaternion.Euler(0, 0, RotainAngle);
+        float RotainAngle = Vector3.SignedAngle(Vector3.up, targetVector3, Vector3.forward);
+        //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, RotainAngle), 1 / turnSmoothing);
+        transform.rotation = Quaternion.Euler(0, 0, RotainAngle);
     }
 
     private void Follow()
     {
-        targetVector3 = TargetDog.position + followDistance*(transform.position - TargetDog.position).normalized;
-        transform.position = Vector3.MoveTowards(transform.position, targetVector3, 0.1f*followSpeed);
+        targetVector3 = TargetDog.position + followDistance * (transform.position - TargetDog.position).normalized;
+        transform.position = Vector3.MoveTowards(transform.position, targetVector3, 0.1f * followSpeed);
+        if (!pantingSource.isPlaying)
+        {
+            pantingSource.Play();
+        }
     }
 
     private void Patrol()
@@ -81,15 +87,21 @@ public class followDog : MonoBehaviour
         {
             targetVector3 = startingPostion;
         }
+
         transform.position = Vector3.MoveTowards(transform.position, targetVector3, PartolSpeed);
 
         if (transform.position == PatrolTarget.position)
         {
             patrolBack = true;
         }
-        else if(transform.position == startingPostion)
+        else if (transform.position == startingPostion)
         {
             patrolBack = false;
+        }
+
+        if (!pantingSource.isPlaying)
+        {
+            pantingSource.Play();
         }
     }
 }
