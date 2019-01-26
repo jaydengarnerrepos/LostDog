@@ -5,7 +5,8 @@ using UnityEngine;
 
 class DogMovement : MonoBehaviour
 {
-    private Player Playerinput;
+    [HideInInspector]
+    public Player Playerinput;
     private Camera mainCamera;
     private float cameraYAngle;
     public float movmentSpeed = 0.3f;
