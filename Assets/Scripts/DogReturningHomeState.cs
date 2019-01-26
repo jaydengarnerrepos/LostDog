@@ -4,10 +4,11 @@ class DogReturningHomeState : MonoBehaviour
 {
     public GameEvent returningHome;
     public Transform spawnPoint;
+    public MeshRenderer dogRenderer;
 
     private void Awake()
     {
-        gameObject.SetActive(false);
+        dogRenderer.enabled = false;
     }
 
     private void OnEnable()
@@ -22,9 +23,9 @@ class DogReturningHomeState : MonoBehaviour
 
     private void OnReturningHome()
     {
-        gameObject.SetActive(true);
         gameObject.transform.SetPositionAndRotation(
             new Vector3(spawnPoint.position.x, spawnPoint.position.y, gameObject.transform.position.z),
             spawnPoint.rotation);
+        dogRenderer.enabled = true;
     }
 }

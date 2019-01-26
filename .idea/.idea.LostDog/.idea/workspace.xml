@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Car Driving Path 2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Car Driving Path 2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Directional Light.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Directional Light.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog Model.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dog Model.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/City.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/TileGraphics_Road.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/TileGraphics_Road.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +54,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="432">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
-                <marker date="1548473254041" expanded="true" signature="63:667" ph="{...}" />
-                <marker date="1548473254041" expanded="true" signature="160:209" ph="{...}" />
-                <marker date="1548473254041" expanded="true" signature="238:299" ph="{...}" />
-                <marker date="1548473254041" expanded="true" signature="329:390" ph="{...}" />
-                <marker date="1548473254041" expanded="true" signature="426:665" ph="{...}" />
+                <marker date="1548474470360" expanded="true" signature="63:704" ph="{...}" />
+                <marker date="1548474470360" expanded="true" signature="197:246" ph="{...}" />
+                <marker date="1548474470360" expanded="true" signature="275:336" ph="{...}" />
+                <marker date="1548474470360" expanded="true" signature="366:427" ph="{...}" />
+                <marker date="1548474470360" expanded="true" signature="463:702" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -218,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548412780420</updated>
-      <workItem from="1548412783237" duration="15276000" />
+      <workItem from="1548412783237" duration="16571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15276000" />
+    <option name="totallyTimeSpent" value="16571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,14 +412,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturningHomeState.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <marker date="1548473254041" expanded="true" signature="63:667" ph="{...}" />
-            <marker date="1548473254041" expanded="true" signature="160:209" ph="{...}" />
-            <marker date="1548473254041" expanded="true" signature="238:299" ph="{...}" />
-            <marker date="1548473254041" expanded="true" signature="329:390" ph="{...}" />
-            <marker date="1548473254041" expanded="true" signature="426:665" ph="{...}" />
+            <marker date="1548474470360" expanded="true" signature="63:704" ph="{...}" />
+            <marker date="1548474470360" expanded="true" signature="197:246" ph="{...}" />
+            <marker date="1548474470360" expanded="true" signature="275:336" ph="{...}" />
+            <marker date="1548474470360" expanded="true" signature="366:427" ph="{...}" />
+            <marker date="1548474470360" expanded="true" signature="463:702" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33833469606222286}
   - component: {fileID: 23146640539058042}
   - component: {fileID: 114878164152611156}
+  - component: {fileID: 114957995460653278}
   m_Layer: 0
   m_Name: Dog Model
   m_TagString: Untagged
@@ -105,3 +106,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   returningHome: {fileID: 11400000, guid: 91a7da7032a902b4784fa8ee00dbcc8e, type: 2}
   spawnPoint: {fileID: 0}
+  dogRenderer: {fileID: 23146640539058042}
+--- !u!114 &114957995460653278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389698512897290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449d0f7bd6794cc0b45dead3bf8f588c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movmentScaling: 0.3
+  playerRotainAngle: 0
+  turnSmoothing: 2
