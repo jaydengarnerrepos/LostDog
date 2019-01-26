@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +27,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1018">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="515">
+              <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
               <folding>
-                <marker date="1548482866068" expanded="true" signature="6:44" ph="..." />
-                <marker date="1548482866068" expanded="true" signature="80:1171" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="298:339" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="368:484" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="514:630" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="661:912" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="946:987" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="1023:1106" ph="{...}" />
-                <marker date="1548482866068" expanded="true" signature="1148:1169" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="6:44" ph="..." />
+                <marker date="1548482968966" expanded="true" signature="80:1356" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="331:372" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="401:517" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="547:663" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="694:945" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="979:1020" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="1056:1139" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="1181:1354" ph="{...}" />
+                <marker date="1548482968966" expanded="true" signature="1231:1348" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <marker date="1548482334501" expanded="true" signature="64:285" ph="{...}" />
                 <marker date="1548482334501" expanded="true" signature="191:283" ph="{...}" />
@@ -213,12 +212,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548412780420</updated>
       <workItem from="1548412783237" duration="16571000" />
-      <workItem from="1548481470517" duration="1255000" />
+      <workItem from="1548481470517" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17826000" />
+    <option name="totallyTimeSpent" value="18521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <marker date="1548482334501" expanded="true" signature="64:285" ph="{...}" />
             <marker date="1548482334501" expanded="true" signature="191:283" ph="{...}" />
@@ -394,18 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="515">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
           <folding>
-            <marker date="1548482866068" expanded="true" signature="6:44" ph="..." />
-            <marker date="1548482866068" expanded="true" signature="80:1171" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="298:339" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="368:484" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="514:630" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="661:912" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="946:987" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="1023:1106" ph="{...}" />
-            <marker date="1548482866068" expanded="true" signature="1148:1169" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="6:44" ph="..." />
+            <marker date="1548482968966" expanded="true" signature="80:1356" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="331:372" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="401:517" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="547:663" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="694:945" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="979:1020" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="1056:1139" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="1181:1354" ph="{...}" />
+            <marker date="1548482968966" expanded="true" signature="1231:1348" ph="{...}" />
           </folding>
         </state>
       </provider>
