@@ -9,5 +9,6 @@ class DogReturnedHomeTrigger : MonoBehaviour
     {
         if (other != targetCollider) return;
         returnedHomeEvent.Raise();
+        Debug.Log("RETURNED HOME.");
     }
 }

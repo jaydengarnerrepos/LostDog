@@ -10,8 +10,9 @@ class DogMovement : MonoBehaviour
     private float cameraYAngle;
     public float movmentSpeed = 0.3f;
     public float playerRotainAngle;
-    [Range(1,10)]
-    public float turnSmoothing = 2;
+    [Range(1, 10)] public float turnSmoothing = 2;
+
+    public Animator animator;
 
     public Stack<GameObject> FollowingDogs;
 
@@ -25,14 +26,17 @@ class DogMovement : MonoBehaviour
 
     void Update()
     {
-        Vector2 rawPlayerAxisInput = Playerinput.GetAxis2DRaw("Horizontal", "Vertical");        
-         if (rawPlayerAxisInput.magnitude >  0)          
+        Vector2 rawPlayerAxisInput = Playerinput.GetAxis2DRaw("Horizontal", "Vertical");
+        if (rawPlayerAxisInput.magnitude > 0)
         {
             Vector2 playerAxisInput = rawPlayerAxisInput.normalized * movmentSpeed;
             playerRotainAngle = Vector3.SignedAngle(Vector3.up, playerAxisInput, Vector3.forward);
-            transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(0,0, playerRotainAngle),1/turnSmoothing);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, playerRotainAngle),
+                1 / turnSmoothing);
             transform.position += new Vector3(playerAxisInput.x, playerAxisInput.y, 0);
         }
+
+        animator.SetBool("Moving", rawPlayerAxisInput.magnitude > 0);
     }
 
     public GameObject FollowDog(GameObject newFollowingDog)
@@ -49,5 +53,4 @@ class DogMovement : MonoBehaviour
             return dogToFollow;
         }
     }
-
 }

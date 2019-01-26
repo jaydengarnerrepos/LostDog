@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 114996834632168904}
   - component: {fileID: 114490770328226128}
   - component: {fileID: 54868880909516960}
+  - component: {fileID: 65484695963221596}
+  - component: {fileID: 95344512630164216}
   m_Layer: 0
   m_Name: Dog 1
   m_TagString: Untagged
@@ -138,6 +140,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65484695963221596
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911878708008782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &95344512630164216
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911878708008782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0775a25bf6cac9a47b987c531e58d5d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114490770328226128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -166,3 +198,4 @@ MonoBehaviour:
   movmentSpeed: 0.3
   playerRotainAngle: 0
   turnSmoothing: 2
+  animator: {fileID: 95344512630164216}
