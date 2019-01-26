@@ -1,3 +1,17 @@
-﻿fileFormatVersion: 2
+fileFormatVersion: 2
 guid: 73d62d743cff4623bf3a406575ced996
-timeCreated: 1548455009
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameCamera: {instanceID: 0}
+  - leavingHomeState: {fileID: 11400000, guid: 75726486b553d7c4ba4584310034b991, type: 2}
+  - returningHomeState: {fileID: 11400000, guid: 91a7da7032a902b4784fa8ee00dbcc8e,
+      type: 2}
+  - car: {instanceID: 0}
+  - dog: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
