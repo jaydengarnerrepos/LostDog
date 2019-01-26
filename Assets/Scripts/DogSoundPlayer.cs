@@ -2,8 +2,8 @@ using UnityEngine;
 
 class DogSoundPlayer : MonoBehaviour
 {
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip bark, growl, pant, hop, pee, wimper;
+    public AudioSource audioSource;
+    public AudioClip bark, growl, pant, hop, pee, wimper;
 
     public void Bark()
     {
