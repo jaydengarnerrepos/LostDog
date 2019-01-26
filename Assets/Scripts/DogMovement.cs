@@ -13,6 +13,7 @@ class DogMovement : MonoBehaviour
     [Range(1, 10)] public float turnSmoothing = 2;
 
     public Animator animator;
+    public Rigidbody rigidbody;
 
     public Stack<GameObject> FollowingDogs;
 
@@ -68,7 +69,7 @@ class DogMovement : MonoBehaviour
             playerRotainAngle = Vector3.SignedAngle(Vector3.up, playerAxisInput, Vector3.forward);
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, playerRotainAngle),
                 1 / turnSmoothing);
-            transform.position += new Vector3(playerAxisInput.x, playerAxisInput.y, 0);
+            rigidbody.MovePosition(rigidbody.position + new Vector3(playerAxisInput.x, playerAxisInput.y, 0));
         }
 
         animator.SetBool("Moving", rawPlayerAxisInput.magnitude > 0);

@@ -3,11 +3,11 @@ using UnityEngine;
 
 class GameController : MonoBehaviour
 {
-    public GameEvent leavingHomeState;
+    public GameEvent startState;
 
     private void Start()
     {
-        leavingHomeState.Raise();
-        Debug.Log("LEAVING HOME.");
+        startState.Raise();
+        //Debug.Log("LEAVING HOME.");
     }
 }

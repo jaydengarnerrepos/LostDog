@@ -69,7 +69,8 @@ public class followDog : MonoBehaviour
 
     private void Follow()
     {
-        targetVector3 = TargetDog.position + followDistance * (transform.position - TargetDog.position).normalized;
+        targetVector3 = TargetDog.position +
+                        followDistance * (transform.position - TargetDog.position).normalized;
         transform.position = Vector3.MoveTowards(transform.position, targetVector3, 0.1f * followSpeed);
         if (!pantingSource.isPlaying)
         {
