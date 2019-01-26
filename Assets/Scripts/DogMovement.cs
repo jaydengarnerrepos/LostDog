@@ -5,8 +5,7 @@ using UnityEngine;
 
 class DogMovement : MonoBehaviour
 {
-    [HideInInspector]
-    public Player Playerinput;
+    [HideInInspector] public Player Playerinput;
     private Camera mainCamera;
     private float cameraYAngle;
     public float movmentSpeed = 0.3f;
@@ -18,6 +17,38 @@ class DogMovement : MonoBehaviour
     public Stack<GameObject> FollowingDogs;
 
     public GameObject MarkerObject;
+    public AudioSource hopSource;
+    public GameEvent leavingHome, returningHome, returnedHome;
+    private bool isPlayerControlled;
+
+    private void OnEnable()
+    {
+        leavingHome.Raised += OnLeavingHome;
+        returningHome.Raised += OnReturningHome;
+        returnedHome.Raised += OnReturnedHome;
+    }
+
+    private void OnDisable()
+    {
+        leavingHome.Raised -= OnLeavingHome;
+        returningHome.Raised -= OnReturningHome;
+        returnedHome.Raised -= OnReturnedHome;
+    }
+
+    private void OnLeavingHome()
+    {
+        isPlayerControlled = false;
+    }
+
+    private void OnReturningHome()
+    {
+        isPlayerControlled = true;
+    }
+
+    private void OnReturnedHome()
+    {
+        isPlayerControlled = false;
+    }
 
     void Start()
     {
@@ -29,6 +60,7 @@ class DogMovement : MonoBehaviour
 
     void Update()
     {
+        if (!isPlayerControlled) return;
         Vector2 rawPlayerAxisInput = Playerinput.GetAxis2DRaw("Horizontal", "Vertical");
         if (rawPlayerAxisInput.magnitude > 0)
         {
@@ -40,6 +72,17 @@ class DogMovement : MonoBehaviour
         }
 
         animator.SetBool("Moving", rawPlayerAxisInput.magnitude > 0);
+        if (rawPlayerAxisInput.magnitude > 0)
+        {
+            if (!hopSource.isPlaying)
+            {
+                hopSource.Play();
+            }
+        }
+        else
+        {
+            hopSource.Stop();
+        }
 
         if (Playerinput.GetButtonDown("Action0"))
         {
