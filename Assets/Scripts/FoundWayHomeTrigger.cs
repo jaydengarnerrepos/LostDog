@@ -12,3 +12,8 @@ class FoundWayHomeTrigger : MonoBehaviour
         Debug.Log("RETURNED HOME.");
     }
 }
+
+class CityCar : MonoBehaviour
+{
+    public Animator animator;
+}
