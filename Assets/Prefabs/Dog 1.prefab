@@ -199,3 +199,5 @@ MonoBehaviour:
   playerRotainAngle: 0
   turnSmoothing: 2
   animator: {fileID: 95344512630164216}
+  MarkerObject: {fileID: 1312644868875258, guid: c48f174c0a43f7f4697f952ef3283667,
+    type: 2}

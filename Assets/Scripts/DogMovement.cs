@@ -16,6 +16,8 @@ class DogMovement : MonoBehaviour
 
     public Stack<GameObject> FollowingDogs;
 
+    public GameObject MarkerObject;
+
     void Start()
     {
         mainCamera = Camera.main;
@@ -37,6 +39,11 @@ class DogMovement : MonoBehaviour
         }
 
         animator.SetBool("Moving", rawPlayerAxisInput.magnitude > 0);
+
+        if (Playerinput.GetButtonDown("Action0"))
+        {
+            MarkTerritory();
+        }
     }
 
     public GameObject FollowDog(GameObject newFollowingDog)
@@ -52,5 +59,11 @@ class DogMovement : MonoBehaviour
             FollowingDogs.Push(newFollowingDog);
             return dogToFollow;
         }
+    }
+
+    public void MarkTerritory()
+    {
+        GameObject marker = Instantiate(MarkerObject, transform);
+        marker.transform.parent = transform.parent;
     }
 }
