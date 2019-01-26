@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4493384312289862}
   - component: {fileID: 33833469606222286}
   - component: {fileID: 23146640539058042}
+  - component: {fileID: 114878164152611156}
   m_Layer: 0
   m_Name: Dog Model
   m_TagString: Untagged
@@ -91,3 +92,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1389698512897290}
   m_Mesh: {fileID: 4300000, guid: bdafac9537000fb418596bbc55bef39d, type: 3}
+--- !u!114 &114878164152611156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389698512897290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599f454cfdaa49509ed1650f5469febc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  returningHome: {fileID: 11400000, guid: 91a7da7032a902b4784fa8ee00dbcc8e, type: 2}
+  spawnPoint: {fileID: 0}
