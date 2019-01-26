@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog partol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dog partol.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roaming Dogs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roaming Dogs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/followDog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/followDog.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,12 +237,12 @@
       <workItem from="1548412783237" duration="16571000" />
       <workItem from="1548481470517" duration="1950000" />
       <workItem from="1548484356957" duration="3582000" />
-      <workItem from="1548500116770" duration="2920000" />
+      <workItem from="1548500116770" duration="3517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25023000" />
+    <option name="totallyTimeSpent" value="25620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
