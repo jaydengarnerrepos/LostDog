@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/City Car Paths/City Car Path 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/City Car Paths/City Car Path 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/City Car Paths/City Car.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/City Car Paths/City Car.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/City Car Variants/City Car 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/City Car Variants/City Car 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +17,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1548496760405" expanded="true" signature="63:261" ph="{...}" />
+                <marker date="1548496760405" expanded="true" signature="204:259" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <marker date="1548496768553" expanded="true" signature="56:477" ph="{...}" />
+                <marker date="1548496768553" expanded="true" signature="199:250" ph="{...}" />
+                <marker date="1548496768553" expanded="true" signature="275:327" ph="{...}" />
+                <marker date="1548496768553" expanded="true" signature="351:402" ph="{...}" />
+                <marker date="1548496768553" expanded="true" signature="425:475" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -36,6 +66,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoundWayHomeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RewiredConsts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowAnimationPathEnd.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,6 +90,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DogReturnedHomeTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoundWayHomeTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs" />
       </list>
     </option>
   </component>
@@ -66,7 +101,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
@@ -148,12 +183,12 @@
       <updated>1548412780420</updated>
       <workItem from="1548412783237" duration="16571000" />
       <workItem from="1548481470517" duration="1950000" />
-      <workItem from="1548484356957" duration="2077000" />
+      <workItem from="1548484356957" duration="3582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20598000" />
+    <option name="totallyTimeSpent" value="22103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,7 +200,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,14 +311,14 @@
         <state relative-caret-position="144">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <marker date="1548485516180" expanded="false" signature="6:106" ph="..." />
-            <marker date="1548485516180" expanded="true" signature="141:1757" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="457:697" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="716:1373" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="857:1296" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="1434:1755" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="1478:1583" ph="{...}" />
-            <marker date="1548485516180" expanded="true" signature="1596:1749" ph="{...}" />
+            <marker date="1548494743489" expanded="false" signature="6:106" ph="..." />
+            <marker date="1548494743489" expanded="true" signature="141:2057" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="457:697" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="716:1373" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="857:1296" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="2049:2055" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="1478:1583" ph="{...}" />
+            <marker date="1548494743489" expanded="true" signature="1596:1749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -375,6 +411,31 @@
             <marker date="1548483653196" expanded="true" signature="2125:2190" ph="{...}" />
             <marker date="1548483653196" expanded="true" signature="2346:2397" ph="{...}" />
             <marker date="1548483653196" expanded="true" signature="2452:2504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarSoundPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1548496760405" expanded="true" signature="63:261" ph="{...}" />
+            <marker date="1548496760405" expanded="true" signature="204:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogSoundPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1548496768553" expanded="true" signature="56:477" ph="{...}" />
+            <marker date="1548496768553" expanded="true" signature="199:250" ph="{...}" />
+            <marker date="1548496768553" expanded="true" signature="275:327" ph="{...}" />
+            <marker date="1548496768553" expanded="true" signature="351:402" ph="{...}" />
+            <marker date="1548496768553" expanded="true" signature="425:475" ph="{...}" />
           </folding>
         </state>
       </provider>

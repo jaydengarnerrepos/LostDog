@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 723ca928e2424bce96511cfd1e3d82d2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - engine: {instanceID: 0}
+  - doorSlam: {fileID: 8300000, guid: b552ba919bc7f4a4f981853784bbd10b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
