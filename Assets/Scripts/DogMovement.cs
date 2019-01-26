@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Rewired;
 using UnityEngine;
 
@@ -11,11 +12,14 @@ class DogMovement : MonoBehaviour
     [Range(1,10)]
     public float turnSmoothing = 2;
 
+    public Stack<GameObject> FollowingDogs;
+
     void Start()
     {
         mainCamera = Camera.main;
         cameraYAngle = mainCamera.transform.eulerAngles.y;
         Playerinput = Rewired.ReInput.players.GetPlayer(RewiredConsts.Player.System);
+        FollowingDogs = new Stack<GameObject>();
     }
 
     void Update()
@@ -30,5 +34,20 @@ class DogMovement : MonoBehaviour
 
         Vector3 newpos = transform.position + new Vector3(playerAxisInput.x, playerAxisInput.y,  0);
         transform.position = newpos;
+    }
+
+    public GameObject FollowDog(GameObject newFollowingDog)
+    {
+        if (FollowingDogs.Count == 0)
+        {
+            FollowingDogs.Push(newFollowingDog);
+            return this.gameObject;
+        }
+        else
+        {
+            var dogToFollow = FollowingDogs.Peek();
+            FollowingDogs.Push(newFollowingDog);
+            return dogToFollow;
+        }
     }
 }
