@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4f7a998f04104c068bdeae18e380b830
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - bark: {fileID: 8300000, guid: 3ce7fd9059d72a34fb6d94c70ca6fef5, type: 3}
+  - growl: {fileID: 8300000, guid: 8f4ac171967e5c74d971f122117f0e0e, type: 3}
+  - pant: {fileID: 8300000, guid: 3b5fdb7495faf064eb828dd3d5a0b969, type: 3}
+  - hop: {fileID: 8300000, guid: 1d2e02c6cb55c9c44af09bac29a2b139, type: 3}
+  - pee: {fileID: 8300000, guid: 6631bba70a7bac546b0f5adb3f583699, type: 3}
+  - wimper: {fileID: 8300000, guid: 8608c669a12f0e646a0c393ad9502b9c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

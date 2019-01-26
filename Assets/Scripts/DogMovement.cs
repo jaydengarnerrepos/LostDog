@@ -5,7 +5,8 @@ using UnityEngine;
 
 class DogMovement : MonoBehaviour
 {
-    private Player Playerinput;
+    [HideInInspector]
+    public Player Playerinput;
     private Camera mainCamera;
     private float cameraYAngle;
     public float movmentSpeed = 0.3f;
@@ -15,6 +16,8 @@ class DogMovement : MonoBehaviour
     public Animator animator;
 
     public Stack<GameObject> FollowingDogs;
+
+    public GameObject MarkerObject;
 
     void Start()
     {
@@ -37,6 +40,11 @@ class DogMovement : MonoBehaviour
         }
 
         animator.SetBool("Moving", rawPlayerAxisInput.magnitude > 0);
+
+        if (Playerinput.GetButtonDown("Action0"))
+        {
+            MarkTerritory();
+        }
     }
 
     public GameObject FollowDog(GameObject newFollowingDog)
@@ -52,5 +60,11 @@ class DogMovement : MonoBehaviour
             FollowingDogs.Push(newFollowingDog);
             return dogToFollow;
         }
+    }
+
+    public void MarkTerritory()
+    {
+        GameObject marker = Instantiate(MarkerObject, transform);
+        marker.transform.parent = transform.parent;
     }
 }

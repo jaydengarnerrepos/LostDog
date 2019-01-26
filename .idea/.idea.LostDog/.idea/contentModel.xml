@@ -256,9 +256,11 @@
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="CarFollowAnimationPathEnd.cs" t="Include" />
+          <e p="CarSoundPlayer.cs" t="Include" />
           <e p="DogMovement.cs" t="Include" />
           <e p="DogReturnedHomeTrigger.cs" t="Include" />
           <e p="DogReturningHomeState.cs" t="Include" />
+          <e p="DogSoundPlayer.cs" t="Include" />
           <e p="followDog.cs" t="Include" />
           <e p="FoundWayHomeTrigger.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
