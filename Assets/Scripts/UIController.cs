@@ -31,6 +31,11 @@ class UIController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
+        if (PlayerDog.Playerinput.GetButtonDown(RewiredConsts.Action.GamePlay.Quit))
+        {
+            Application.Quit();
+        }
+
     }
 
     void EnableEndUI()
