@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+#if UNITYEDITOR 
 using UnityEditor;
 using UnityEditor.Hardware;
+#endif
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.Experimental.PlayerLoop;
