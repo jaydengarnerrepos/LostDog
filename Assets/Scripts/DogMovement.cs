@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Rewired;
@@ -17,6 +18,7 @@ class DogMovement : MonoBehaviour
 
     public Stack<GameObject> FollowingDogs;
 
+    public float PeeTime = 0.5f;
     public GameObject MarkerObject;
     public AudioSource hopSource;
     public GameEvent leavingHome, returningHome, returnedHome;
@@ -110,5 +112,13 @@ class DogMovement : MonoBehaviour
     {
         GameObject marker = Instantiate(MarkerObject, transform);
         marker.transform.parent = transform.parent;
+        isPlayerControlled = false;
+        StartCoroutine(PausePlayermovment());
+    }
+
+    IEnumerator PausePlayermovment()
+    {
+        yield return new WaitForSeconds(PeeTime);
+        isPlayerControlled = true;
     }
 }

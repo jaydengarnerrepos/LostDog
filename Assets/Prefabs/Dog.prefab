@@ -209,6 +209,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449d0f7bd6794cc0b45dead3bf8f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movmentScaling: 0.2
+  movmentSpeed: 0.3
   playerRotainAngle: 0
   turnSmoothing: 2
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  PeeTime: 1
+  MarkerObject: {fileID: 0}
+  hopSource: {fileID: 0}
+  leavingHome: {fileID: 0}
+  returningHome: {fileID: 0}
+  returnedHome: {fileID: 0}

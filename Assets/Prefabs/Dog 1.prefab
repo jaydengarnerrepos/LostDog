@@ -296,6 +296,7 @@ MonoBehaviour:
   turnSmoothing: 2
   animator: {fileID: 95344512630164216}
   rigidbody: {fileID: 54868880909516960}
+  PeeTime: 1
   MarkerObject: {fileID: 1714466316844206, guid: 72cb96c929209464facdfbab9114595c,
     type: 2}
   hopSource: {fileID: 82340548362906288}

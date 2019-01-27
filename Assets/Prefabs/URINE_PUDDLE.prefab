@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4600311215634260}
   - component: {fileID: 33289999334553058}
   - component: {fileID: 23321348988256286}
+  - component: {fileID: 114620204202527002}
   m_Layer: 0
   m_Name: URINE_PUDDLE
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1714466316844206}
   m_Mesh: {fileID: 4300000, guid: 9e7ffbfd19a9abf4baaedae114d265e5, type: 3}
+--- !u!114 &114620204202527002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714466316844206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca204cc44f9c80c48829218d92941e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartScale: 0
+  EndScale: 0.0033
+  SizeRate: 0.00009
