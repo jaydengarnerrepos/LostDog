@@ -20,6 +20,7 @@ public class followDog : MonoBehaviour
     public float followDistance = 1;
     public float turnSmoothing = 3;
     public AudioSource pantingSource;
+    public float turnSpeed = 10;
 
     private Vector3 targetVector3;
 
@@ -61,10 +62,12 @@ public class followDog : MonoBehaviour
 
     private void RotateDog()
     {
-        //TODO fix This up
-        float RotainAngle = Vector3.SignedAngle(Vector3.up, targetVector3, Vector3.forward);
-        //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, RotainAngle), 1 / turnSmoothing);
-        transform.rotation = Quaternion.Euler(0, 0, RotainAngle);
+        if (transform.position != targetVector3)
+        {
+            float rotationAngle = Vector3.SignedAngle(Vector3.up, targetVector3 - transform.position, Vector3.forward);
+            transform.rotation =
+                Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, rotationAngle), turnSpeed);
+        }
     }
 
     private void Follow()
