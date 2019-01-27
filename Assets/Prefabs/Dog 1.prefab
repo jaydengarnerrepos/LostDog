@@ -296,7 +296,7 @@ MonoBehaviour:
   turnSmoothing: 2
   animator: {fileID: 95344512630164216}
   rigidbody: {fileID: 54868880909516960}
-  MarkerObject: {fileID: 1312644868875258, guid: c48f174c0a43f7f4697f952ef3283667,
+  MarkerObject: {fileID: 1714466316844206, guid: 72cb96c929209464facdfbab9114595c,
     type: 2}
   hopSource: {fileID: 82340548362906288}
   leavingHome: {fileID: 11400000, guid: 75726486b553d7c4ba4584310034b991, type: 2}
