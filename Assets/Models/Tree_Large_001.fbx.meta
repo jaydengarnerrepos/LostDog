@@ -6,10 +6,22 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: lambert1
+    2100002: Tree_GREEN
+    2100004: Tree_BROWN
     2300000: //RootNode
     3300000: //RootNode
     4300000: Tree_Large_001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_BROWN
+    second: {fileID: 2100000, guid: bae8327bd80d3534b8cf6ee44df93998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_GREEN
+    second: {fileID: 2100000, guid: f3c28b6e61959924d800584e016c713e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
