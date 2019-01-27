@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf25ed8c-9d90-46f1-a76b-a2271137e88d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LostDog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dog 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dog partol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dog partol.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roaming Dogs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roaming Dogs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/House_001.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/House_001.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Large_001.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Large_001.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Large_002.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Large_002.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Large_003.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Large_003.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Small_001.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Small_001.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Small_002.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Small_002.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree_Small_003.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Tree_Small_003.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Driveways and Water Tilemap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Driveways and Water Tilemap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rewired Input Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rewired Input Manager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/followDog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/followDog.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/followDog.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
               <folding>
                 <marker date="1548539384703" expanded="false" signature="6:197" ph="..." />
                 <marker date="1548539384703" expanded="true" signature="237:2764" ph="{...}" />
@@ -118,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <marker date="1548538174772" expanded="false" signature="6:52" ph="..." />
                 <marker date="1548538174772" expanded="true" signature="90:231" ph="{...}" />
@@ -268,12 +264,12 @@
       <workItem from="1548481470517" duration="1950000" />
       <workItem from="1548484356957" duration="3582000" />
       <workItem from="1548500116770" duration="3517000" />
-      <workItem from="1548536951440" duration="2437000" />
+      <workItem from="1548536951440" duration="3047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28057000" />
+    <option name="totallyTimeSpent" value="28667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <marker date="1548538174772" expanded="false" signature="6:52" ph="..." />
             <marker date="1548538174772" expanded="true" signature="90:231" ph="{...}" />
@@ -515,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/followDog.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        <state relative-caret-position="250">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
             <marker date="1548539384703" expanded="false" signature="6:197" ph="..." />
             <marker date="1548539384703" expanded="true" signature="237:2764" ph="{...}" />

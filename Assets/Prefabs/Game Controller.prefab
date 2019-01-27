@@ -51,4 +51,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ced293e8834afdacbc61a27627d1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leavingHomeState: {fileID: 11400000, guid: 75726486b553d7c4ba4584310034b991, type: 2}
+  startState: {fileID: 11400000, guid: 75726486b553d7c4ba4584310034b991, type: 2}
